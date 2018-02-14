@@ -1,0 +1,32 @@
+{
+  "name": "johnstyle/redmine-bundle",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "bundle",
+  "description": "RedmineBundle",
+  "homepage": "https://github.com/johnstyle/redmine-bundle",
+  "authors": [
+    {
+      "name": "Jonathan SAHM",
+      "email": "contact@johnstyle.fr",
+      "homepage": "https://www.johnstyle.fr",
+      "role": "Lead Developer"
+    }
+  ],
+  "support": {
+    "email": "contact@johnstyle.fr",
+    "issues": "https://github.com/johnstyle/redmine-bundle/issues",
+    "wiki": "https://github.com/johnstyle/redmine-bundle/wiki",
+    "source": "https://github.com/johnstyle/redmine-bundle"
+  },
+  "autoload": {
+    "psr-4": { "Johnstyle\\RedmineBundle\\": "" }
+  },
+  "require": {
+    "php": "^7.0",
+    "kbsali/redmine-api": "^1.5"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
