@@ -1,0 +1,5 @@
+services:
+
+    johnstyle.redmine_client:
+        class: Johnstyle\RedmineBundle\Service\RedmineClient
+        arguments: [ '%johnstyle_redmine.url%', '%johnstyle_redmine.token%' ]
